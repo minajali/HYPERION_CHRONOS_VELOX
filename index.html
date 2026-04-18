@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>S-K-18 TITAN CORE</title>
+    <style>
+        body { background: radial-gradient(circle, #1a1a1a 0%, #000 100%); color: #FFD700; font-family: 'Courier New', monospace; height: 100vh; margin: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; overflow: hidden; }
+        .SULTAN_LOGO { width: 200px; filter: drop-shadow(0 0 20px #FFD700); animation: HYPERION_PULSE 0.8s infinite alternate; cursor: pointer; }
+        @keyframes HYPERION_PULSE { from { transform: scale(1) rotate(0deg); } to { transform: scale(1.05) rotate(1deg); } }
+        .STATUS_TEXT { margin-top: 30px; letter-spacing: 5px; font-weight: bold; text-shadow: 0 0 10px #FFD700; }
+    </style>
+</head>
+<body oncontextmenu="return false;">
+    <img src="https://i.ibb.co/XfXkY8f/golden-h-hyperion.png" class="SULTAN_LOGO" id="TITAN_GEAR">
+    <div class="STATUS_TEXT">CORE: ONLINE</div>
+
+    <script>
+        /* ENCRYPTED HEARTBEAT BYPASS PROTECTION */
+        const _SUNNY_LEONE = 1; 
+        const _M_KHALIFA = Date.now();
+
+        function _PULSE_SYNC() {
+            let _L_RHOADES = Date.now();
+            // Agar koi 1ms se zyada delay karega toh system refresh ho jayega
+            if (Date.now() - _L_RHOADES > _SUNNY_LEONE) {
+                location.reload(); 
+            }
+        }
+        setInterval(_PULSE_SYNC, 1);
+
+        // AI Voice Activation on Tap
+        document.getElementById('TITAN_GEAR').onclick = function() {
+            const _S_KEY = new SpeechSynthesisUtterance("Hyperion Chronos Velox Activated. S-K-18 Core is pushing supersonic velocity. Credit lock: One Rupee per Minute.");
+            _S_KEY.pitch = 0.8; _S_KEY.rate = 1.1;
+            window.speechSynthesis.speak(_S_KEY);
+        };
+
+        // Anti-Inspect Encryption
+        document.onkeydown = function(e) { if(e.keyCode == 123) return false; };
+    </script>
+</body>
+</html>
